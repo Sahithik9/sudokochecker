@@ -36,7 +36,7 @@ public class SudokuApplication {
 				cmdlineargs.put(parameter[0], parameter[1]);
 			}
 
-			input = new Scanner(new FileReader(new File(cmdlineargs.get("inputfilepath"))));
+			input = new Scanner(new FileReader(new File(cmdlineargs.get("inputFilePath"))));
 			int iRows = 9, iCols = 9;
 			int[][] intArr = new int[iRows][iCols];
 			for (int i = 0; i < iRows; i++) {
