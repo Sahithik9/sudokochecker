@@ -1,5 +1,6 @@
 package com.puzzle.sudoku;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -91,5 +92,10 @@ class SudokuChecker {
 				}
 		}
 		return isSubgridValid(grid) < 1 ? false : true;
+	}
+	
+	public File getInputFile() {
+		File file = new File(getClass().getClassLoader().getResource("input.txt").getFile());
+		return file;
 	}
 }
