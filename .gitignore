@@ -1,0 +1,9 @@
+/.gradle/
+/build/
+/bin/
+/.cache-main
+/.cache-tests
+.settings
+.project
+.classpath
+gradle.properties
