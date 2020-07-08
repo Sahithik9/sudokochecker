@@ -5,8 +5,8 @@
 	- Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition. <br /> 
 * Sample input should be passed from a text file. e.g: input.txt <br />
 * Input : <code>          
-				8 1 2 7 5 3 6 4 9 \
-                                9 4 3 6 8 2 1 7 5 \
+				8 1 2 7 5 3 6 4 9 </code>
+                                9 4 3 6 8 2 1 7 5 
 				6 7 5 4 9 1 2 8 3 <br />
 				1 5 4 2 3 7 8 9 6 <br />
 				3 6 9 8 4 5 7 2 1 <br />
